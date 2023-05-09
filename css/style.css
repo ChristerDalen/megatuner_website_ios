@@ -15,7 +15,6 @@ body {
 
 header {
   background-color: orange;
-  color: #fff;
   padding: 1rem;
   position: fixed;
   top: 0;
@@ -59,7 +58,7 @@ iframe {
 }
 
 header nav ul li a {
-  color: blue;
+ color: #0077be; /* a darker shade of blue */
   text-decoration: none;
 }
 
@@ -68,7 +67,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #f2f2f2;
+  background-color: orange;
   padding: 10px;
   text-align: center;
 }
