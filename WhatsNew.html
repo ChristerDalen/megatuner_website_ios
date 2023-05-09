@@ -14,6 +14,15 @@
     .question {
       cursor: pointer;
     }
+    .question::before {
+      content: "+";
+      display: inline-block;
+      margin-right: 0.5em;
+    }
+
+    .question.active::before {
+      content: "-";
+    }
   </style>
 </head>
 <body>
